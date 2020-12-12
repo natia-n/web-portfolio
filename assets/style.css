@@ -1,0 +1,124 @@
+@font-face {
+    font-family: freestyle;
+    src: url(./fonts/Freestyle\ Script\ Regular.ttf);
+}
+
+@font-face {
+    font-family: hatten;
+    src: url(./fonts/HATTEN.TTF);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Medium.ttf);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-SemiBold.ttf);
+    font-weight: semiBold;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(./fonts/Raleway-Regular.ttf);
+}
+
+.page1{
+    width: 1920px;
+    height: 1217px;
+    background-color: #0E0C38;
+}
+
+.menu span{
+    display: inline-block;
+    font-family: freestyle;
+    font-size: 116px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.menu img{
+    width: 590px;
+    height: 263px;
+}
+
+.portfolioH3, .image, .about1{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about, .portfolio, .contact, .getStarted{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.portfolioH3{
+    margin-left: 84px;
+    margin-right: 170px;
+}
+
+.about span, .portfolio span, .contact span{
+    color: #FFFFFF;
+    font-family: poppins;
+    font-weight: medium;
+    font-size: 22px;
+    margin-top: 65px;
+}
+
+.getStarted span{
+    font-family: raleway;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.about{
+    background-color: #FF0513;
+    margin-left: 80px;
+    margin-right: 35px;
+    width: 123px;
+    height: 117px;
+}
+
+.line{
+    background-color: #FF0513;
+    margin-left: 80px;
+    margin-right: 35px;
+    width: 123px;
+    height: 1px;
+    margin-top: 8px;
+}
+
+.contact{
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.getStarted{
+    width: 202px;
+    height: 72px;
+    border: 2px solid  #FFFFFF;
+    border-radius: 60px;
+    margin-top: 35px;
+}
+
