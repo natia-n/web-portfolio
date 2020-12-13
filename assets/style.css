@@ -285,3 +285,177 @@ body{
 .numberPage .active{
     color: #FFFFFF;
 }
+
+/*page2*/
+.page2{
+    background-color: #040221;
+    padding-top: 197px;
+    padding-bottom: 131px; /*???????????????*/
+}
+
+.aboutMy{
+    display: inline-block;
+    position: relative;
+    width: 877px;
+    vertical-align: top;
+}
+
+.aboutMy h3{
+    font-family: poppins;
+    font-weight: semibold;
+    font-size: 60px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 87px;
+    top: 55px;
+}
+
+.aboutMy p{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 50px;
+    margin-top: 260px;
+    display: inline-block;
+    padding-right: 25px;   
+}
+
+.aboutMy img{
+    width: 437px;
+    opacity: 0.19;
+    display: block;
+}
+
+.dowlandCV{
+    border: solid 1px #FFFFFF;
+    border-radius: 60px;
+    width: 301px;
+    height: 96px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 28px;
+    margin-top: 93px;
+    display: inline-block;
+    cursor: pointer;  
+}
+
+.dowlandCV a{
+    font-family: raleway;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.line2{
+    width: 345px;
+    height: 2px;
+    background-color: #FF0513;
+    position: absolute;
+    top: 155px;
+    left: 616px;
+}
+
+.about2{
+    position: absolute;
+    left: -85px;
+}
+
+.aboutMyImage{
+    display: inline-block;
+    padding: 74px 66px;
+    box-sizing: border-box;
+    background-color: #0E0C38;
+}
+
+.portfolio2{
+    background-color:#040221;
+    position: relative;
+    width: 877px;
+    display: inline-block;
+}
+
+.portfolio2 span{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.portfolio2 ul{
+    padding: 0px;
+}
+
+.portfolio2 li{
+    display: inline-block;
+}
+
+.line3{
+    width: 345px;
+    height: 2px;
+    background-color: #FF0513;
+    position: absolute;
+    top: 40px;
+    left: 240px;
+}
+
+.portfolio2 a{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0px 17px;
+}
+
+.portfolio2 .red2{
+    color:  #FF0513;
+    margin-left: 0px;
+}
+
+.portfolioDetailed .portfolio3{
+    display: inline-block;
+    width: 280px;
+    margin-left: 575px; /*???????????????????*/
+    text-align: center; 
+    vertical-align: top;   
+}
+
+.portfolio3 div{
+    display: inline-block;
+    width: 103px;
+    height: 103px;
+    border: solid 1px #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 0px 16px;
+    cursor: pointer;
+}
+
+.portfolio3 div:hover{
+    background-color:  #FF0513;
+}
+
+.portfolioDetailed{
+    margin-top: 141px;
+}
+
+.images{
+    margin-top: 79px;
+}
+
+.images img{
+    margin: 57px 0px;
+}
+
+.images .minisite{
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.images .nalie{
+    margin-left: 105px;
+    margin-right: 105px;
+}
