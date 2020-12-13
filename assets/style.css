@@ -1,3 +1,5 @@
+/* @import url(//db.onlinewebfonts.com/c/f5bd594fdf1873d09eff1f4718ff2141?family=Freestyle+Script); */
+
 @font-face {
     font-family: freestyle;
     src: url(./fonts/Freestyle\ Script\ Regular.ttf);
@@ -29,7 +31,7 @@
 @font-face {
     font-family: poppins;
     src: url(./fonts/Poppins-Regular.ttf);
-    font-weight: normal;
+    font-weight: 300;
 }
 
 @font-face {
@@ -43,10 +45,33 @@
     src: url(./fonts/Raleway-Regular.ttf);
 }
 
+body{
+    margin: 0px;
+}
+
+.page{
+    padding: 0px 85px;
+    font-size: 0px;
+}
+
+/* page 1 */
+
 .page1{
-    width: 1920px;
-    height: 1217px;
     background-color: #0E0C38;
+    position: relative;
+}
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hover:hover{
+    background-color:#FF0513;
+}
+
+.hover2:hover div:last-child{
+    background-color: #FF0513;
 }
 
 .menu span{
@@ -57,28 +82,22 @@
     margin-top: 25px;
 }
 
-.menu img{
+.image{
     width: 590px;
     height: 263px;
+    margin-left: 170px;
+    margin-right: 80px;
+    position: relative;
+    z-index: 1;
 }
 
-.portfolioH3, .image, .about1{
-    display: inline-block;
-    vertical-align: top;
-}
-
-.about, .portfolio, .contact, .getStarted{
+.about, .portfolio, .contact, .getStarted, .portfolioH3, .image, .about1, .hover2{
     display: inline-block;
     text-align: center;
     vertical-align: top;
 }
 
-.portfolioH3{
-    margin-left: 84px;
-    margin-right: 170px;
-}
-
-.about span, .portfolio span, .contact span{
+.about a, .portfolio a, .contact a{
     color: #FFFFFF;
     font-family: poppins;
     font-weight: medium;
@@ -86,32 +105,36 @@
     margin-top: 65px;
 }
 
-.getStarted span{
+.getStarted a{
     font-family: raleway;
     color: #FFFFFF;
     font-size: 22px;
+    margin-top: 21px;
 }
 
 .about{
-    background-color: #FF0513;
-    margin-left: 80px;
-    margin-right: 35px;
+    margin-right: 10px;
     width: 123px;
     height: 117px;
 }
 
 .line{
-    background-color: #FF0513;
-    margin-left: 80px;
-    margin-right: 35px;
+    margin-right: 10px;
     width: 123px;
     height: 1px;
     margin-top: 8px;
 }
 
 .contact{
-    margin-left: 60px;
-    margin-right: 40px;
+    margin-right: 10px;
+    height: 117px;
+    width: 123px;
+}
+
+.portfolio{
+    height: 117px;
+    width: 123px;
+   margin-right: 10px;
 }
 
 .getStarted{
@@ -119,6 +142,146 @@
     height: 72px;
     border: 2px solid  #FFFFFF;
     border-radius: 60px;
-    margin-top: 35px;
+    margin-top: 44px;
+    box-sizing: border-box;
+    margin-left: 20px;
 }
 
+.heading{
+    background-color: #0E0C38;
+    width: 780px;
+    padding-bottom: 192px;
+    display: inline-block;
+    margin-top: 85px;
+}
+
+.heading p{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 41px;
+    color: #FFFFFF;
+    margin: 0px;    
+}
+
+.heading h1{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 150px;
+    color: #FFFFFF;
+    margin: 0px;
+    line-height: 1em;
+}
+
+.heading span{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 26px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.socialNetwork{
+    margin-top: 40px;
+}
+
+.socialNetwork span{
+    font-family: raleway;
+    font-size: 30px;
+    color: #FFFFFF; 
+    display: block;
+    margin: 0px;
+}
+
+.dribbble, .linked{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.socialNetwork img{
+    margin-top: 22px;
+}
+
+.heading .red{
+    color: #FF0513;
+}
+
+.HireMe{
+    display: inline-block;
+    width: 279px;
+    height: 96px;
+    background-color: #0E0C38;
+    border: solid 1px;
+    border-color: #FFFFFF;
+    border-radius: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 69px;
+    cursor: pointer;    
+}
+
+.HireMe a{
+    font-family: raleway;
+    font-size: 30px;
+    color: #FFFFFF; 
+    margin: 0px;
+    text-decoration: none;
+}
+
+.HireMe:hover{
+    background-color:  #FF0513;
+    border: 0px;    
+}
+
+.HireMe.Portfolio{
+    margin-left: 26px;
+}
+
+.Layer4{
+    margin-top: 34.5px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.Layer4 img{
+    position: absolute;
+    top: 160px;
+    right: 144px;
+}
+
+.numberPage{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #0E0C38;
+    width: 105px;
+    text-align: center;
+}
+
+.numberPage ul{
+    padding-left: 20px;
+}
+
+.numberPage li{
+    border-bottom: 3px solid rgba(112, 112, 112, 0.2);
+    width: 52px;
+    padding: 0px;
+    padding-top: 17px;
+}
+
+.numberPage a{
+    color: #8D8D8D;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.numberPage img{
+    margin-top: 24.5px;
+}
+
+.numberPage .active{
+    color: #FFFFFF;
+}
