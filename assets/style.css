@@ -528,3 +528,70 @@ body{
 }
 
 /* page3 */
+
+.page3{
+    background-color: #0E0C38;
+}
+
+.myCapabilities{    
+    text-align: center;
+    padding-top: 95px;
+}
+
+.myCapabilities h3{
+    font-family: poppins;
+    font-weight: semiBold;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 50px;   
+}
+
+.line4{
+    width: 345px;
+    height: 2px;
+    background-color: #FF0513;
+    margin: 0 auto;
+    margin-bottom: 40.5px;
+}
+
+.myCapabilities span{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.webDesignAll{
+    padding: 0px 80px;
+    margin-top: 224px;
+    padding-bottom: 95px;
+}
+
+.webDesign{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 174px;
+}
+
+.webDesign h5{
+    font-family: poppins;
+    font-weight: medium;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.webDesign span{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 44px;
+}
+
+.webDesign24{
+    padding: 0px 290px;
+}
+
+/* page4 */
