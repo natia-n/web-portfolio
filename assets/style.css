@@ -595,3 +595,129 @@ body{
 }
 
 /* page4 */
+
+.page4{
+    background-color: #040221;
+}
+
+.map{
+    width: 809px;
+    height: 394px;
+    display: inline-block;
+    margin-top: 232px;
+    background-image: url(./images/map-55e32ae4c19a85738ebb72d3172e3ab7.png);
+    position: relative;
+    background-size: cover;
+    margin-bottom: 290px;
+}
+
+.photo{
+    position: absolute;
+    transition: all 0.2s ease-in;
+    border: 0px solid red;
+    border-radius: 50%;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.photo:hover{
+    border-width: 10px;
+}
+
+.photo-small:hover{
+    border-width: 5px;
+}
+
+.photo1{
+    right: 67px;
+    top: -122px;
+    width: 187px;
+}
+
+.photo2{
+    left: 77px;
+    top: 0px;
+    width: 166px;
+}
+
+.photo3{
+    right: 77px;
+    bottom: -36px;
+    width: 166px;
+}
+
+.photo4{
+    left: 294px;
+    bottom: -128px;
+    width: 187px;
+}
+
+.photo5{
+    left: 179px;
+    bottom: 90px;
+    width: 96px;
+}
+
+.photo6{
+    left: 345px;
+    top: 59px;
+    width: 125px;
+}
+
+
+.text{
+    width: 810px;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 111px;
+    background-color: #040221;
+    vertical-align: top;
+}
+
+.text span{
+    font-family: hatten;
+    font-size: 200px;
+    color: #FF0513;
+}
+
+.text>p{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0px;
+    position: relative;
+    line-height: 55px;
+    top: -72px;
+}
+.qoute{
+    position: relative;
+    top: -125px;
+    left: 500px;
+}
+
+.sara-smith{
+    display: inline-block;
+    position: relative;
+    left: -75px;
+    top: -120px;
+}
+
+.sara-smith h6{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.sara-smith p{
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+/* page5 */
