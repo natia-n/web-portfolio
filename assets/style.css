@@ -781,6 +781,17 @@ body{
     margin-bottom: 50px;
 }
 
+.budget{
+    background: url(./images/6.png) #FFFFFF no-repeat;
+    /* Change the px value here to change the distance */
+    background-position: right 32px top 33px; 
+        -moz-appearance: none; 
+        -moz-appearance: none; 
+        -webkit-appearance: none; 
+        appearance: none;
+}
+
+
 .page5 .HireMe {
     margin: 89px auto 0;
     display: block;
@@ -792,3 +803,49 @@ body{
 }
 
 /*page 6*/
+
+.page6{
+    background-color: #040221;
+    text-align: center;
+}
+
+.footer-top .line-vertical{
+    height: 83px;
+    margin-bottom: 22.5px;
+}
+
+.footer-top span{
+    font-family: freestyle;
+    font-size: 116px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.footer-top p{
+    font-family: poppins;
+    font-weight: medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 47px;
+}
+
+.footer-top .socialNetwork{
+    margin-top: 69.1px;
+    padding-bottom: 90.6px;
+}
+
+.footer-bottom{
+    background-color: #040221;
+    border-top: 1px solid #707070;
+    text-align: center;
+    padding-top: 53.5px;
+    padding-bottom: 59px;
+}
+
+.footer-bottom p{
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
