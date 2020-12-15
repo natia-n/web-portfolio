@@ -721,3 +721,74 @@ body{
 }
 
 /* page5 */
+
+.page5{
+    background-color: #040B33;
+    padding-bottom: 189px;
+}
+
+.page5 h3{
+    line-height: 79px;
+    margin: 0px;
+    margin-bottom: 33px;
+    margin-top: 47.5px;
+}
+
+.page5 span{
+    line-height: 55px;
+    font-size: 20px;
+}
+
+.line-vertical{
+    width: 2px;
+    height: 187px;
+    background-color: #FF0513;
+    margin: 0 auto;
+}
+
+.myCapabilities.div-input-text{
+    padding-top: 0px;
+}
+
+.input{
+    margin: 0px 241px;
+    padding-top: 89px;
+}
+
+.input .name{
+    width: 592px;
+    height: 87px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 25px;
+    color:#707070;    
+    outline: none; /* garshemowiruloba*/
+    border: 1px solid #707070;
+}
+
+.input .message{
+    width: 1242px;
+    height: 205px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-top: 27px;
+}
+
+.email, .budget{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.page5 .HireMe {
+    margin: 89px auto 0;
+    display: block;
+    background-color: #040B33;
+}
+
+.HireMe:hover{
+    background-color:  #FF0513;
+}
+
+/*page 6*/
