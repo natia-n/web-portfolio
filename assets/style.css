@@ -271,6 +271,7 @@ h2{
     position: fixed;
     top: 520px;
     right: 25px;
+    z-index: 1;
 }
 
 .numberPage li{
@@ -314,6 +315,7 @@ h2{
     background-color: #040221;
     padding-top: 197px;
     padding-bottom: 131px; /*???????????????*/
+    position: relative;
 }
 
 .aboutMy{
@@ -383,11 +385,26 @@ h2{
     left: -85px;
 }
 
+.image-absolut{
+    position: absolute;
+    width: 437px;
+    height: 387px;
+    left: 888px;
+    top: 826px;
+}
+
+.image-absolut img{   
+    width: 437px;
+    opacity: 0.19;  
+}
+
 .aboutMyImage{
     display: inline-block;
     padding: 74px 66px;
     box-sizing: border-box;
     background-color: #0E0C38;
+    position: relative;
+    z-index: 1;
 }
 
 .portfolio2{
