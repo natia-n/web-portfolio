@@ -491,19 +491,24 @@ h2{
     margin-top: 79px;
 }
 
+.images div{
+    display: inline-block;
+}
+
 .images img{
     margin-bottom: 57px;
 }
 
 .minisite{
-    display: inline-block;
-    margin-left: 105px;
-    margin-right: 105px;
-    width: 505px;
-    height: 562px;
     border-radius: 40px;
     margin-top: 0px;
     position: relative;
+    width: 505px;
+    height: 510px;
+}
+
+.border-radius{
+    border-radius: 40px;
 }
 
 .images .nalie{
@@ -547,6 +552,20 @@ h2{
     top: 0px;
     z-index: 1;
     opacity: 0.82;
+}
+
+.images .remove{
+    display: none;
+}
+
+.images div:hover div:first-child{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.images div:hover div:last-child{
+    display: inline-block;
+    cursor: pointer;
 }
 
 /* page3 */
