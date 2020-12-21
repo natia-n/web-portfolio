@@ -70,6 +70,8 @@ h2{
 
 .menu nav{
     display: inline-block;
+    position: relative; /*patara ekraze rom gamochndes*/
+    z-index: 1; /*patara ekraze rom gamochndes*/
 }
 
 .hover:hover{
@@ -271,7 +273,7 @@ h2{
     position: fixed;
     top: 520px;
     right: 25px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .numberPage li{
@@ -489,6 +491,10 @@ h2{
 
 .images{
     margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 108px;
 }
 
 .images div{
@@ -509,11 +515,6 @@ h2{
 
 .border-radius{
     border-radius: 40px;
-}
-
-.images .nalie{
-    margin-left: 105px;
-    margin-right: 105px;
 }
 
 .perspiciatis{
@@ -603,15 +604,20 @@ h2{
 }
 
 .webDesignAll{
-    padding: 0px 80px;
+    padding: 0px 20px;
     margin-top: 224px;
     padding-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .webDesign{
     display: inline-block;
     text-align: center;
     margin-bottom: 174px;
+    margin-left: 146px;
+    margin-right: 146px;
 }
 
 .webDesign h3{
@@ -630,9 +636,9 @@ h2{
     line-height: 44px;
 }
 
-.webDesign24{
+/* .webDesign24{
     padding: 0px 290px;
-}
+} */
 
 /* page4 */
 
@@ -791,8 +797,9 @@ h2{
 }
 
 .input{
-    margin: 0px 241px;
-    padding-top: 89px;
+    /* margin: 0px 241px; */
+    padding-top: 64px;
+    text-align: center;
 }
 
 .input label{
@@ -810,19 +817,17 @@ h2{
     color:#707070;    
     outline: none; /* garshemowiruloba*/
     border: 1px solid #707070;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
 }
 
 .input .message{
-    width: 1242px;
+    width: 1238px;
     height: 205px;
     box-sizing: border-box;
     padding-left: 25px;
     padding-top: 27px;
-}
-
-.email, .budget{
-    margin-left: 50px;
-    margin-bottom: 50px;
 }
 
 .budget{
