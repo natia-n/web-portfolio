@@ -91,13 +91,19 @@ h2{
 }
 
 .image{
-    width: 590px;
+    width: 33%;
     height: 263px;
     margin-left: 170px;
     margin-right: 80px;
     position: relative;
     z-index: 1;
 }
+
+.image img{
+    width: 100%;
+    
+}
+
 
 .about, .portfolio, .contact, .getStarted, .portfolioH3, .image, .about1, .hover2{
     display: inline-block;
@@ -111,6 +117,11 @@ h2{
     font-weight: medium;
     font-size: 22px;
     margin-top: 65px;
+}
+
+.getStarted:hover{
+    background-color: #FF0513;
+    border-color: #FF0513;
 }
 
 .getStarted a{
@@ -239,7 +250,7 @@ h2{
 
 .HireMe:hover{
     background-color:  #FF0513;
-    border: 0px;    
+    border-color: #FF0513;  
 }
 
 .HireMe.Portfolio{
@@ -253,6 +264,7 @@ h2{
 }
 
 .Layer4 img{
+    width: 47%;
     position: absolute;
     top: 160px;
     right: 144px;
@@ -364,6 +376,10 @@ h2{
     margin-top: 93px;
     display: inline-block;
     cursor: pointer;  
+}
+.dowlandCV:hover{
+    background-color:  #FF0513;
+    border-color:  #FF0513;
 }
 
 .dowlandCV a{
@@ -849,6 +865,7 @@ h2{
 
 .HireMe:hover{
     background-color:  #FF0513;
+    border-color: #FF0513;
 }
 
 /*page 6*/
